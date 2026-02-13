@@ -1,48 +1,222 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio coming soon. A modern digital experience under construction.">
-    <title>Portfolio | Coming Soon</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <main class="content">
-            <header class="fade-in">
-                <span class="status-badge">In Progress</span>
-            </header>
-            
-            <h1 class="headline fade-in delay-1">
-                Crafting <br>
-                <span class="highlight">Digital Experiences.</span>
-            </h1>
-            
-            <p class="subtext fade-in delay-2">
-                My new portfolio is currently under development. 
-                I'm building something simple, fast, and accessible.
-                Check back soon.
-            </p>
-
-            <footer class="social-links fade-in delay-3">
-                <a href="mailto:muntasiractive@gmail.com" class="link" aria-label="Email">Email</a>
-                <span class="separator">/</span>
-                <a href="https://github.com/muntasiractive" class="link" aria-label="GitHub">GitHub</a>
-                <span class="separator">/</span>
-                <a href="https://www.linkedin.com/in/muntasiractive" class="link" aria-label="LinkedIn">LinkedIn</a>
-            </footer>
-        </main>
-        
-        <div class="background-elements">
-            <div class="blur-circle circle-1"></div>
-            <div class="blur-circle circle-2"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Full-Stack Developer & Open Source Contributor Portfolio. Building the future of digital experiences."
+    />
+    <title>Muntasir | Full-Stack Developer & OS Contributor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;800&family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="dark-theme">
+    <div class="scanline"></div>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">MUNTASIR<span>.sh</span></a>
+        <ul class="nav-links">
+          <li><a href="#about">./about</a></li>
+          <li><a href="#projects">./projects</a></li>
+          <li><a href="#skills">./skills</a></li>
+          <li><a href="#experience">./experience</a></li>
+          <li><a href="#blog">./blog</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="mailto:muntasiractive@gmail.com" class="btn btn-outline"
+            >CONTACT</a
+          >
         </div>
-    </div>
+      </div>
+    </nav>
+
+    <header class="hero" id="home">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="terminal-intro">
+            <div class="terminal-header">
+              <div class="terminal-buttons">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="terminal-title">muntasir@portfolio: ~</div>
+            </div>
+            <div class="terminal-body">
+              <p class="typing-text"><span class="prompt">$</span> whoami</p>
+              <p class="response">
+                Full-Stack Developer. Open Source Contributor. Visionary Founder
+                of Noor.
+              </p>
+              <p class="typing-text">
+                <span class="prompt">$</span> contribution --status
+              </p>
+              <p class="response">
+                Actively maintaining Roam & Shonkha. Supporting 10+ open-source
+                initiatives.
+              </p>
+              <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+            </div>
+          </div>
+          <h1 class="glitch" data-text="BUILDING THE FUTURE.">
+            BUILDING THE FUTURE.
+          </h1>
+          <p class="hero-subtext">
+            Architecting scalable web systems, operating systems, and AI-driven
+            experiences with a focus on simplicity and performance.
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">VIEW_PROJECTS</a>
+            <a
+              href="https://github.com/muntasiractive"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-secondary"
+              >GITHUB_PROFILE</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="hero-bg-overlay"></div>
+    </header>
+
+    <section id="about" class="section alt-bg">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">SYSTEM_OVERVIEW</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I am a passionate Full-Stack Developer and Open Source Contributor
+              dedicated to building efficient, scalable, and user-centric
+              digital solutions. With a deep foundation in systems programming
+              and modern web technologies, I bridge the gap between low-level
+              performance and high-level user experience.
+            </p>
+            <p>
+              Currently, I am focused on developing <strong>Roam</strong>, a
+              modular operating system, and <strong>Shonkha</strong>, a structured
+              prompt engineering platform. I believe in the power of open source
+              to drive innovation and empower developers worldwide.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-value">3+</span>
+              <span class="stat-label">YEARS_EXP</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">20+</span>
+              <span class="stat-label">PROJECTS_BUILT</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">10+</span>
+              <span class="stat-label">OS_CONTRIBUTIONS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">SELECTED_WORKS</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="projects-grid" class="projects-grid">
+          <!-- Projects will be loaded here via JS -->
+          <div class="loader">Fetching projects from database...</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt-bg">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">TECHNICAL_SKILLS</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="skills-container" class="skills-wrapper">
+          <!-- Skills will be loaded here via JS -->
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">EXPERIENCE_LOG</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="experience-timeline" class="timeline">
+          <!-- Experience will be loaded here via JS -->
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section alt-bg">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">LATEST_INSIGHTS</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div id="blogs-grid" class="blogs-grid">
+          <!-- Blogs will be loaded here via JS -->
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#" class="logo">MUNTASIR<span>.sh</span></a>
+            <p>
+              Designed and built with passion for the open source community.
+            </p>
+          </div>
+          <div class="footer-links">
+            <a
+              href="https://github.com/muntasiractive"
+              target="_blank"
+              rel="noopener"
+              >GITHUB</a
+            >
+            <a
+              href="https://linkedin.com/in/muntasiractive"
+              target="_blank"
+              rel="noopener"
+              >LINKEDIN</a
+            >
+            <a
+              href="https://twitter.com/muntasiractive"
+              target="_blank"
+              rel="noopener"
+              >TWITTER</a
+            >
+            <a href="mailto:muntasiractive@gmail.com">EMAIL</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Muntasir. All rights reserved. System Status:
+            <span class="status-online">ONLINE</span>
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

@@ -1,0 +1,204 @@
+{
+  "schema": {
+    "id": "string",
+    "name": "string",
+    "icon": "string",
+    "category": "string",
+    "proficiency": "number",
+    "featured": "boolean"
+  },
+  "data": [
+    {
+      "id": "skill-001",
+      "name": "React.js",
+      "icon": "assets/images/icons/tech-stacks/react.svg",
+      "category": "Development",
+      "proficiency": 45,
+      "featured": true
+    },
+    {
+      "id": "skill-002",
+      "name": "Node.js",
+      "icon": "assets/images/icons/tech-stacks/node-js.svg",
+      "category": "Development",
+      "proficiency": 43,
+      "featured": true
+    },
+    {
+      "id": "skill-003",
+      "name": "Python",
+      "icon": "assets/images/icons/tech-stacks/python.svg",
+      "category": "Development",
+      "proficiency": 65,
+      "featured": true
+    },
+    {
+      "id": "skill-004",
+      "name": "JavaScript",
+      "icon": "assets/images/icons/tech-stacks/js.svg",
+      "category": "Development",
+      "proficiency": 56,
+      "featured": true
+    },
+    {
+      "id": "skill-005",
+      "name": "Notion",
+      "icon": "assets/images/icons/tech-stacks/notion.svg",
+      "category": "Productivity",
+      "proficiency": 96,
+      "featured": true
+    },
+    {
+      "id": "skill-006",
+      "name": "Obsidian",
+      "icon": "assets/images/icons/tech-stacks/obsidian.svg",
+      "category": "Productivity",
+      "proficiency": 99,
+      "featured": true
+    },
+    {
+      "id": "skill-007",
+      "name": "Telegram Bot",
+      "icon": "assets/images/icons/tech-stacks/telegram.svg",
+      "category": "Communication",
+      "proficiency": 88,
+      "featured": false
+    },
+    {
+      "id": "skill-008",
+      "name": "Google Workspace",
+      "icon": "assets/images/icons/tech-stacks/google-workspace.svg",
+      "category": "Productivity",
+      "proficiency": 95,
+      "featured": true
+    },
+    {
+      "id": "skill-009",
+      "name": "Microsoft 365",
+      "icon": "assets/images/icons/tech-stacks/ms365.svg",
+      "category": "Productivity",
+      "proficiency": 93,
+      "featured": false
+    },
+    {
+      "id": "skill-010",
+      "name": "Java",
+      "icon": "assets/images/icons/tech-stacks/java.svg",
+      "category": "Development",
+      "proficiency": 79,
+      "featured": false
+    },
+    {
+      "id": "skill-011",
+      "name": "HTML",
+      "icon": "assets/images/icons/tech-stacks/html.svg",
+      "category": "Development",
+      "proficiency": 99,
+      "featured": false
+    },
+    {
+      "id": "skill-012",
+      "name": "CSS",
+      "icon": "assets/images/icons/tech-stacks/css.svg",
+      "category": "Development",
+      "proficiency": 93,
+      "featured": false
+    },
+    {
+      "id": "skill-013",
+      "name": "LaTeX",
+      "icon": "assets/images/icons/tech-stacks/latex.svg",
+      "category": "Academic",
+      "proficiency": 97,
+      "featured": false
+    },
+    {
+      "id": "skill-014",
+      "name": "Kotlin",
+      "icon": "assets/images/icons/tech-stacks/kotlin.svg",
+      "category": "Development",
+      "proficiency": 76,
+      "featured": false
+    },
+    {
+      "id": "skill-015",
+      "name": "C++",
+      "icon": "assets/images/icons/tech-stacks/cpp.svg",
+      "category": "Development",
+      "proficiency": 85,
+      "featured": false
+    },
+    {
+      "id": "skill-016",
+      "name": "TypeScript",
+      "icon": "assets/images/icons/tech-stacks/typescript.svg",
+      "category": "Development",
+      "proficiency": 90,
+      "featured": true
+    },
+    {
+      "id": "skill-017",
+      "name": "Dart",
+      "icon": "assets/images/icons/tech-stacks/dart.svg",
+      "category": "Development",
+      "proficiency": 85,
+      "featured": false
+    },
+    {
+      "id": "skill-018",
+      "name": "Flutter",
+      "icon": "assets/images/icons/tech-stacks/flutter.svg",
+      "category": "Development",
+      "proficiency": 80,
+      "featured": true
+    },
+    {
+      "id": "skill-019",
+      "name": "WordPress",
+      "icon": "assets/images/icons/tech-stacks/wordPress.svg",
+      "category": "Content",
+      "proficiency": 90,
+      "featured": false
+    },
+    {
+      "id": "skill-020",
+      "name": "Illustrator",
+      "icon": "assets/images/icons/tech-stacks/illustrator.svg",
+      "category": "Design",
+      "proficiency": 85,
+      "featured": true
+    },
+    {
+      "id": "skill-021",
+      "name": "Canva",
+      "icon": "assets/images/icons/tech-stacks/canva.svg",
+      "category": "Design",
+      "proficiency": 95,
+      "featured": true
+    },
+    {
+      "id": "skill-022",
+      "name": "Figma",
+      "icon": "assets/images/icons/tech-stacks/figma.svg",
+      "category": "Design",
+      "proficiency": 90,
+      "featured": true
+    },
+    {
+      "id": "skill-023",
+      "name": "Photoshop",
+      "icon": "assets/images/icons/tech-stacks/photoshop.svg",
+      "category": "Design",
+      "proficiency": 80,
+      "featured": false
+    },
+    {
+      "id": "skill-024",
+      "name": "GIMP",
+      "icon": "assets/images/icons/tech-stacks/gimp.svg",
+      "category": "Design",
+      "proficiency": 84,
+      "featured": false
+    }
+  ]
+}

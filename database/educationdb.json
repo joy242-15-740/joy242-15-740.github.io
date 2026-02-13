@@ -1,0 +1,37 @@
+{
+  "schema": {
+    "id": "string",
+    "degree": "string",
+    "institution": "string",
+    "location": "string",
+    "startDate": "string",
+    "endDate": "string",
+    "current": "boolean",
+    "description": "string",
+    "achievements": "array of strings"
+  },
+  "data": [
+    {
+      "id": "edu-001",
+      "degree": "BSc in Computer Science and Engineering",
+      "institution": "Daffodil International University",
+      "location": "Dhaka, Bangladesh",
+      "startDate": "2024",
+      "endDate": "Present",
+      "current": true,
+      "description": "Pursuing Bachelor's degree with a focus on core CS fundamentals.",
+      "achievements": []
+    },
+    {
+      "id": "edu-002",
+      "degree": "Higher Secondary School Certificate",
+      "institution": "Bogura Cantonment Public School and College",
+      "location": "Bogura, Bangladesh",
+      "startDate": "2021",
+      "endDate": "2024",
+      "current": false,
+      "description": "Completed Higher Secondary education.",
+      "achievements": []
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "schema": {
+    "id": "string",
+    "title": "string",
+    "excerpt": "string",
+    "content": "string",
+    "pageLink": "string",
+    "thumbnail": "string",
+    "date": "string",
+    "author": "string",
+    "authorsImage": "string",
+    "category": "string",
+    "tableOfContents": "array of objects",
+    "relatedBlogs": "array of strings"
+  },
+  "data": [
+    {
+      "id": "blog-001",
+      "title": "The Mathematics of Machine Learning",
+      "excerpt": "A deep dive into the linear algebra and calculus that powers modern AI.",
+      "content": "drafts/contents/blogs/concept-of-mathematics-fundamentals.md",
+      "pageLink": "pages/blogs/math-of-ml.html",
+      "thumbnail": "assets/images/blogs/banner/blog-001.webp",
+      "date": "2026-01-01",
+      "author": "Muntasir",
+      "authorsImage": "assets/images/avatars/author.jpg",
+      "category": "Mathematics",
+      "tableOfContents": [
+        { "heading": "Vectors and Matrices", "anchor": "#linear-algebra" },
+        { "heading": "Gradient Descent", "anchor": "#calculus" },
+        { "heading": "Probability Theory", "anchor": "#stats" }
+      ],
+      "relatedBlogs": ["blog-002", "blog-005"]
+    },
+    {
+      "id": "blog-002",
+      "title": "How to Think Like a Mathematician: Mastering the Art of Mathematical Reasoning",
+      "excerpt": "Unlock the secrets of mathematical thinking. Learn the mental frameworks, problem-solving strategies, and cognitive habits that mathematicians use to tackle complex problems and discover elegant solutions.",
+      "content": "drafts/contents/blogs/how-to-think-like-a-mathematician.md",
+      "pageLink": "pages/blogs/how-to-think-like-a-mathematician.html",
+      "thumbnail": "assets/images/blogs/banner/blog-002.webp",
+      "date": "2026-01-02",
+      "author": "Muntasir",
+      "authorsImage": "assets/images/avatars/author.jpg",
+      "category": "Mathematics Education",
+      "tableOfContents": [
+        { "heading": "Introduction: The Mathematical Mindset", "anchor": "#introduction" },
+        { "heading": "Questioning Everything", "anchor": "#questioning-everything" },
+        { "heading": "Precision in Language and Thought", "anchor": "#precision-in-language" },
+        { "heading": "The Art of Pattern Recognition", "anchor": "#pattern-recognition" },
+        { "heading": "Abstraction and Generalization", "anchor": "#abstraction-generalization" },
+        { "heading": "Problem-Solving Strategies", "anchor": "#problem-solving-strategies" },
+        { "heading": "Mastering Logical Reasoning", "anchor": "#logical-reasoning" }
+      ],
+      "relatedBlogs": ["blog-001", "blog-003"]
+    },
+    {
+      "id": "blog-003",
+      "title": "The Concept of Universe: From Ancient Cosmology to Modern Physics",
+      "excerpt": "Explore the fascinating journey of humanity's understanding of the universe—from ancient philosophical musings to cutting-edge quantum cosmology and the mysteries that still await discovery.",
+      "content": "drafts/contents/blogs/concept-of-universe-001.md",
+      "pageLink": "pages/blogs/concept-of-universe.html",
+      "thumbnail": "assets/images/blogs/banner/blog-003.webp",
+      "date": "2026-01-03",
+      "author": "Muntasir",
+      "authorsImage": "assets/images/avatars/author.jpg",
+      "category": "Physics & Cosmology",
+      "tableOfContents": [
+        { "heading": "Introduction: What is the Universe?", "anchor": "#introduction" },
+        { "heading": "Historical Perspectives on the Cosmos", "anchor": "#historical-perspectives" },
+        { "heading": "The Structure of the Universe", "anchor": "#structure-of-universe" },
+        { "heading": "The Big Bang Theory", "anchor": "#big-bang-theory" },
+        { "heading": "The Four Fundamental Forces", "anchor": "#fundamental-forces" },
+        { "heading": "Dark Matter and Dark Energy", "anchor": "#dark-matter-energy" }
+      ],
+      "relatedBlogs": ["blog-004", "blog-002"]
+    },
+    {
+      "id": "blog-004",
+      "title": "The Concept of Spacetime: Understanding the Fabric of Reality",
+      "excerpt": "Discover how Einstein revolutionized our understanding of space and time, weaving them into a single dynamic fabric that bends, warps, and ripples across the cosmos.",
+      "content": "drafts/contents/blogs/concept-of-spacetime-002.md",
+      "pageLink": "pages/blogs/concept-of-spacetime.html",
+      "thumbnail": "assets/images/blogs/banner/blog-004.webp",
+      "date": "2026-01-04",
+      "author": "Muntasir",
+      "authorsImage": "assets/images/avatars/author.jpg",
+      "category": "Physics & Cosmology",
+      "tableOfContents": [
+        { "heading": "Introduction: The Arena of Existence", "anchor": "#introduction" },
+        { "heading": "Newtonian Space and Time", "anchor": "#newtonian-space-time" },
+        { "heading": "Special Relativity", "anchor": "#special-relativity" },
+        { "heading": "General Relativity: Curved Spacetime", "anchor": "#general-relativity" },
+        { "heading": "Black Holes", "anchor": "#black-holes" },
+        { "heading": "Gravitational Waves", "anchor": "#gravitational-waves" }
+      ],
+      "relatedBlogs": ["blog-003", "blog-005"]
+    },
+    {
+      "id": "blog-005",
+      "title": "Building Your Second Brain: The Complete Guide to Externalizing Your Mind",
+      "excerpt": "Learn how to build a personal knowledge management system that captures, organizes, and retrieves your best ideas—transforming information overload into creative abundance using the powerful ROAM system.",
+      "content": "drafts/contents/blogs/second-brain-complete-guide-003.md",
+      "pageLink": "pages/blogs/building-your-second-brain.html",
+      "thumbnail": "assets/images/blogs/banner/blog-005.webp",
+      "date": "2026-01-05",
+      "author": "Muntasir",
+      "authorsImage": "assets/images/avatars/author.jpg",
+      "category": "Productivity & Knowledge Management",
+      "tableOfContents": [
+        { "heading": "Introduction: Why Your Brain Needs a Partner", "anchor": "#introduction" },
+        { "heading": "What is a Second Brain?", "anchor": "#what-is-second-brain" },
+        { "heading": "The ROAM System", "anchor": "#roam-system" },
+        { "heading": "Record: Capturing What Matters", "anchor": "#record" },
+        { "heading": "Organize: Creating Structure from Chaos", "anchor": "#organize" },
+        { "heading": "Activate: Putting Knowledge to Work", "anchor": "#activate" }
+      ],
+      "relatedBlogs": ["blog-006", "blog-007"]
+    },
+    {
+      "id": "blog-006",
+      "title": "Note-Taking Systems Compared: Finding the Right Method for How You Think",
+      "excerpt": "From Zettelkasten to Cornell Method, bullet journaling to mind mapping—here's an honest breakdown of popular note-taking systems and how to choose the right one for you.",
+      "content": "drafts/contents/blogs/note-taking-systems-compared-2024.md",
+      "pageLink": "pages/blogs/note-taking-systems-compared.html",
+      "thumbnail": "assets/images/blogs/banner/blog-006.webp",
+      "date": "2026-01-06",
+      "author": "Muntasir",
+      "authorsImage": "assets/images/avatars/author.jpg",
+      "category": "Productivity",
+      "tableOfContents": [
+        { "heading": "The Note-Taking Paradox", "anchor": "#introduction" },
+        { "heading": "Traditional Linear Notes", "anchor": "#linear-notes" },
+        { "heading": "The Cornell Method", "anchor": "#cornell-method" },
+        { "heading": "The Zettelkasten Method", "anchor": "#zettelkasten" },
+        { "heading": "Bullet Journaling", "anchor": "#bullet-journal" },
+        { "heading": "How to Choose Your System", "anchor": "#choosing" }
+      ],
+      "relatedBlogs": ["blog-005", "blog-007"]
+    },
+    {
+      "id": "blog-007",
+      "title": "The Digital Declutter Guide: Clean Up Your Digital Life in One Weekend",
+      "excerpt": "Your digital spaces are as cluttered as a messy closet. Here's a practical, room-by-room guide to decluttering your files, apps, emails, and digital chaos once and for all.",
+      "content": "drafts/contents/blogs/digital-declutter-guide-2024.md",
+      "pageLink": "pages/blogs/digital-declutter-guide.html",
+      "thumbnail": "assets/images/blogs/banner/blog-007.webp",
+      "date": "2026-01-07",
+      "author": "Muntasir",
+      "authorsImage": "assets/images/avatars/author.jpg",
+      "category": "Productivity",
+      "tableOfContents": [
+        { "heading": "The Weight of Digital Clutter", "anchor": "#introduction" },
+        { "heading": "Why Digital Clutter Drains You", "anchor": "#why-it-matters" },
+        { "heading": "Desktop & File System", "anchor": "#desktop-files" },
+        { "heading": "Email Inbox", "anchor": "#email-inbox" },
+        { "heading": "Apps & Software", "anchor": "#apps-software" },
+        { "heading": "Maintenance Habits", "anchor": "#maintenance" }
+      ],
+      "relatedBlogs": ["blog-005"]
+    },
+
+    {
+      "id": "blog-010",
+      "title": "Quantum Computing: A Developer's Perspective",
+      "excerpt": "Qubits, superposition, and entanglement explained for the classical programmer.",
+      "content": "drafts/contents/blogs/quantum-computing-2026.md",
+      "pageLink": "pages/blogs/quantum-computing.html",
+      "thumbnail": "assets/images/blogs/banner/blog-010.webp",
+      "date": "2026-01-10",
+      "author": "Muntasir",
+      "authorsImage": "assets/images/avatars/author.jpg",
+      "category": "Computer Science",
+      "tableOfContents": [
+        { "heading": "The Qubit", "anchor": "#qubit" },
+        { "heading": "Quantum Gates", "anchor": "#gates" },
+        { "heading": "Shor's Algorithm", "anchor": "#shor" }
+      ],
+      "relatedBlogs": ["blog-001", "blog-012"]
+    },
+    {
+      "id": "blog-011",
+      "title": "Mastering Time Management for Remote Work",
+      "excerpt": "Practical strategies to stay productive and maintain work-life balance while working from anywhere.",
+      "content": "drafts/contents/blogs/mastering-time-management.md",
+      "pageLink": "pages/blogs/time-management.html",
+      "thumbnail": "assets/images/blogs/banner/blog-011.webp",
+      "date": "2026-01-10",
+      "author": "Muntasir",
+      "authorsImage": "assets/images/avatars/author.jpg",
+      "category": "Productivity",
+      "tableOfContents": [
+        { "heading": "The Pomodoro Evolution", "anchor": "#pomodoro" },
+        { "heading": "Digital Minimalism", "anchor": "#minimalism" },
+        { "heading": "Asynchronous Communication", "anchor": "#async" }
+      ],
+      "relatedBlogs": ["blog-005", "blog-007"]
+    },
+    {
+      "id": "blog-012",
+      "title": "Essential AI Tools for Creatives in 2026",
+      "excerpt": "A curated list of indispensable AI tools that every designer, writer, and developer should have in their toolkit.",
+      "content": "drafts/contents/blogs/ai-tools-for-creatives.md",
+      "pageLink": "pages/blogs/ai-tools.html",
+      "thumbnail": "assets/images/blogs/banner/blog-012.webp",
+      "date": "2026-01-10",
+      "author": "Muntasir",
+      "authorsImage": "assets/images/avatars/author.jpg",
+      "category": "Tools",
+      "tableOfContents": [
+        { "heading": "Generative Design", "anchor": "#design" },
+        { "heading": "Content Synthesis", "anchor": "#content" },
+        { "heading": "Code Assistants", "anchor": "#code" }
+      ],
+      "relatedBlogs": ["blog-010", "blog-004"]
+    }
+  ]
+}

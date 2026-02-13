@@ -1,0 +1,22 @@
+{
+  "schema": {
+    "id": "string",
+    "title": "string",
+    "description": "string",
+    "thumbnail": "string",
+    "images": "array of strings",
+    "link": "string",
+    "pageLink": "string",
+    "price": "string",
+    "category": "string",
+    "featured": "boolean",
+    "rating": "number",
+    "sales": "number",
+    "features": "array of strings",
+    "testimonials": "array of objects",
+    "faq": "array of objects"
+  },
+  "data": [
+
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema": {
+    "id": "string",
+    "title": "string",
+    "description": "string",
+    "pageLink": "string",
+    "icon": "string",
+    "pricing": "string",
+    "features": "array of strings",
+    "process": "array of objects",
+    "testimonials": "array of objects",
+    "faq": "array of objects",
+    "category": "string",
+    "featured": "boolean"
+  },
+  "data": [
+    {
+      "id": "svc-001",
+      "title": "PKM Consultation",
+      "description": "Help individuals or teams set up personal knowledge management (PKM) systems.",
+      "pageLink": "pages/services/pkm-consultation.html",
+      "icon": "brain",
+      "pricing": "Starting at $8/hr",
+      "features": [
+        "System Audit",
+        "Workflow Design",
+        "Tool Selection (Notion/Obsidian)"
+      ],
+      "category": "Consulting",
+      "featured": true
+    },
+    {
+      "id": "svc-002",
+      "title": "Workspace in Google",
+      "description": "Helping startups, NGOs, or small businesses migrate to Google Workspace with Automation and configurations.",
+      "pageLink": "pages/services/google-workspace.html",
+      "icon": "layout-grid",
+      "pricing": "Starting at $50",
+      "features": [
+        "Migration Strategy",
+        "Automation Setup",
+        "Security Configuration"
+      ],
+      "category": "Consulting",
+      "featured": true
+    },
+    {
+      "id": "svc-003",
+      "title": "Virtual Assistant",
+      "description": "Helping startups, NGOs, or small businesses with admin support by virtual assistant services.",
+      "pageLink": "pages/services/virtual-assistant.html",
+      "icon": "user-cog",
+      "pricing": "Starting at $14/hr",
+      "features": ["Admin Support", "Email Management", "Scheduling"],
+      "category": "Support",
+      "featured": false
+    },
+    {
+      "id": "svc-004",
+      "title": "MERN Stack Web Development",
+      "description": "Building scalable, full-stack web applications using MongoDB, Express, React, and Node.js.",
+      "pageLink": "pages/services/web-development.html",
+      "icon": "code",
+      "pricing": "Starting at $80",
+      "features": ["React.js Frontend", "Node.js & Express Bundles", "MongoDB Database"],
+      "category": "Development",
+      "featured": true
+    },
+    {
+      "id": "svc-005",
+      "title": "Marketing Poster Design",
+      "description": "Impactful poster designs that drive attention to your campaigns and events.",
+      "pageLink": "pages/services/marketing-poster-design.html",
+      "icon": "layout-template",
+      "pricing": "Starting at $15",
+      "features": [
+        "Campaign Strategy",
+        "Custom Illustrations",
+        "Print & Digital Formats"
+      ],
+      "category": "Design",
+      "featured": true
+    },
+    {
+      "id": "svc-006",
+      "title": "Telegram Bot Building",
+      "description": "Custom Telegram bots for automation, customer support, and mini-apps.",
+      "pageLink": "pages/services/telegram-bot-development.html",
+      "icon": "bot",
+      "pricing": "Starting at $30",
+      "features": ["Automation", "Mini Apps", "Payment Integration"],
+      "category": "Development",
+      "featured": true
+    },
+    {
+      "id": "svc-007",
+      "title": "Custom Google Form Builder",
+      "description": "Professional Google Forms with custom logic, branding, and automation.",
+      "pageLink": "pages/services/custom-google-form.html",
+      "icon": "file-text",
+      "pricing": "Starting at $1",
+      "features": ["Logic Jump", "Custom Branding", "Email Notifications"],
+      "category": "Automation",
+      "featured": true
+    }
+  ]
+}

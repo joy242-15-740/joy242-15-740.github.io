@@ -1,0 +1,398 @@
+{
+  "_schema": {
+    "id": "string (unique identifier)",
+    "title": "string",
+    "description": "string",
+    "thumbnail": "string (path)",
+    "images": "array of strings",
+    "pageLink": "string (path)",
+    "liveLink": "string (url)",
+    "repoLink": "string (url)",
+    "category": "string",
+    "status": "string",
+    "role": "string",
+    "testimonials": "array",
+    "techStack": "array of strings",
+    "client": "string",
+    "publishDate": "string (YYYY-MM-DD)",
+    "featured": "boolean"
+  },
+  "data": [
+    {
+      "id": "cue-prompt-builder",
+      "title": "Cue - Structured Prompt Builder",
+      "description": "A professional, clean prompt builder for AI models with a modern dark theme. Features structured composition, template system, and AI testing integration.",
+      "thumbnail": "../../assets/images/works/cue/cover (4).webp",
+      "images": [
+        "../../assets/images/works/cue/cover (4).webp"
+      ],
+      "pageLink": "pages/works/cue.html",
+      "liveLink": "https://cue.noorglobal.page/",
+      "repoLink": "https://github.com/noor-global/cue",
+      "category": "Product Design",
+      "status": "Perpetuate",
+      "role": "Lead Developer & Designer",
+      "testimonials": [],
+      "techStack": ["React.js", "TailwindCSS", "API", "LocalStorage"],
+      "client": "Personal Project",
+      "publishDate": "2025-01-11",
+      "featured": true
+    },
+    {
+      "id": "roam-modular-os",
+      "title": "ROAM | The Modular OS",
+      "description": "A Life Operating System and core kernel of the Noor Ecosystem, fusing Project Management, PKM, and Life Operations.",
+      "thumbnail": "../../assets/images/works/roam/cover_roam.webp",
+      "images": [],
+      "pageLink": "pages/works/roam.html",
+      "liveLink": "https://noorglobal.page/products/roam",
+      "repoLink": "",
+      "category": "Systems & Productivity",
+      "status": "In Progress",
+      "role": "Visionary Founder",
+      "testimonials": [],
+      "techStack": [
+        "React",
+        "Django",
+        "Docker"
+      ],
+      "client": "Personal Project",
+      "publishDate": "2026-02-13",
+      "featured": true
+    },
+    {
+      "id": "shonkha-math-mastery",
+      "title": "Shonkha | Mathematical Mastery",
+      "description": "Master the art of mathematical thinking. A playground for math enthusiasts to solve, express, and build a mathematical legacy.",
+      "thumbnail": "../../assets/images/works/shonkha/shonkha.webp",
+      "images": [],
+      "pageLink": "pages/works/shonkha.html",
+      "liveLink": "https://shonkha.noorglobal.page/",
+      "repoLink": "",
+      "category": "EdTech Platform",
+      "status": "Active Platform",
+      "role": "Full-Stack Architect",
+      "testimonials": [],
+      "techStack": [
+        "React.js",
+        "Tailwind",
+        "Node.js"
+      ],
+      "client": "Noor Global",
+      "publishDate": "2026-02-13",
+      "featured": true
+    },
+    {
+      "id": "burger-hut-launch-campaign",
+      "title": "Burger Hut Launch Campaign Posters",
+      "description": "A cohesive set of launch posters and marketing graphics for Burger Hut, built around a fiery, crave-inducing visual identity that highlights signature menu items and promotional offers.",
+      "thumbnail": "../../assets/images/works/burger-hut-launch-campaign/burger-hut-cover.webp",
+      "images": [],
+      "pageLink": "pages/works/burger-hut-launch-campaign.html",
+      "liveLink": "",
+      "repoLink": "",
+      "category": "Branding & Marketing",
+      "status": "Completed",
+      "role": "Brand & Visual Designer",
+      "testimonials": [],
+      "techStack": [
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Procreate",
+        "Brand Identity Design",
+        "Marketing Collateral"
+      ],
+      "client": "Burger Hut (Concept Brand)",
+      "publishDate": "2024-09-01",
+      "featured": true
+    },
+    {
+      "id": "joyguru-academic-portal",
+      "title": "JoyGuru: Academic Telegram Mini App",
+      "description": "A lightweight, type-safe academic portal built with TypeScript and Vanilla CSS, integrated directly into Telegram for the Spring '26 batch.",
+      "thumbnail": "../../assets/images/works/joyguru-academic-portal/joyguru-academic-portal-cover.webp",
+      "images": [
+        "../../assets/images/works/joyguru-academic-portal/joyguru-dashboard.webp",
+        "../../assets/images/works/joyguru-academic-portal/joyguru-routine.webp",
+        "../../assets/images/works/joyguru-academic-portal/joyguru-teachers.webp",
+        "../../assets/images/works/joyguru-academic-portal/joyguru-bot-interface.webp"
+      ],
+      "pageLink": "pages/works/joyguru-academic-portal.html",
+      "liveLink": "https://t.me/joyguru_bot",
+      "repoLink": "https://github.com/yourusername/joyguru-project",
+      "category": "Web Application",
+      "status": "Completed",
+      "role": "Lead Developer",
+      "testimonials": [
+        {
+          "name": "Abdullah Al Sakib",
+          "text": "The interface is incredibly smooth. Having the routine and student info in one place within Telegram is a game changer for class management.",
+          "role": "Faculty Member"
+        }
+      ],
+      "techStack": [
+        "TypeScript",
+        "Vanilla CSS",
+        "HTML5",
+        "Node.js",
+        "Telegram Bot API",
+        "Express"
+      ],
+      "client": "DIU CSE Department",
+      "publishDate": "2024-02-10",
+      "featured": true
+    },
+    {
+      "id": "diu-ignition",
+      "title": "DIU Ignition: Programming Contest Brand",
+      "description": "A conceptual branding and identity project for 'DIU Ignition', a programming contest aimed at fostering a competitive coding culture at Daffodil International University.",
+      "thumbnail": "../../assets/images/works/diu-ignition/cover (5).webp",
+      "images": [
+        "../../assets/images/works/diu-ignition/ignition25-photobooth-diu (1).webp",
+        "../../assets/images/works/diu-ignition/ignition25-xposter-diu (2).webp"
+      ],
+      "pageLink": "pages/works/diu-ignition.html",
+      "liveLink": "",
+      "repoLink": "",
+      "category": "Branding & Concept",
+      "status": "Completed",
+      "role": "Creative Director",
+      "testimonials": [],
+      "techStack": ["Adobe Photoshop", "Adobe Illustrator", "Brand Identity", "Event Branding"],
+      "client": "DIU Academic Concept",
+      "publishDate": "2025-01-05",
+      "featured": false
+    },
+    {
+      "id": "diu-nextgen",
+      "title": "DIU NextGen Programming Campaign",
+      "description": "Mentorship, Branding for 'DIU NextGen', a programming campaign designed to identify and nurture coding talent among first-year students at DIU.",
+      "thumbnail": "../../assets/images/works/diu-nextgen/next-gen-cover.webp",
+      "images": [
+        "../../assets/images/works/diu-nextgen/next-gen-xposter.webp",
+        "../../assets/images/works/diu-nextgen/nextgen-presentation-slide (1).webp",
+        "../../assets/images/works/diu-nextgen/nextgen-presentation-slide (2).webp"
+      ],
+      "pageLink": "pages/works/diu-nextgen.html",
+      "liveLink": "https://diunextgen.com/",
+      "repoLink": "",
+      "category": "Campaign Branding",
+      "status": "Completed",
+      "role": "Creative Lead",
+      "testimonials": [],
+      "techStack": ["Event Strategy", "Graphic Design", "Leadership", "Marketing"],
+      "client": "DIU Programming Club Concept",
+      "publishDate": "2025-01-08",
+      "featured": true
+    },
+    {
+      "id": "noor-os-2024",
+      "title": "Noor OS: The Illuminated Operating System",
+      "description": "A from-scratch operating system built for clarity and learning, implementing modern OS concepts with transparent design principles and educational focus.",
+      "thumbnail": "../../assets/images/works/noor-os/noor-os-cover.webp",
+      "images": [],
+      "pageLink": "pages/works/noor-os.html",
+      "liveLink": "",
+      "repoLink": "https://github.com/muntasiractive/noor-os",
+      "category": "Systems Programming",
+      "status": "In Progress",
+      "role": "Sole Developer & Architect",
+      "testimonials": [
+        {
+          "name": "OSDev Community Member",
+          "text": "One of the most well-documented and educational OS projects I've seen. The 'illuminated' approach makes complex concepts accessible.",
+          "role": "Fellow OS Developer"
+        },
+        {
+          "name": "University Professor",
+          "text": "Using Noor OS in my operating systems course to show students what happens beneath the abstractions. The visual debug tools are exceptional.",
+          "role": "Computer Science Educator"
+        }
+      ],
+      "techStack": [
+        "x86_64 Assembly",
+        "C17",
+        "GNU Toolchain",
+        "QEMU",
+        "Bochs",
+        "Git",
+        "Make",
+        "GDB",
+        "Python (Build Scripts)"
+      ],
+      "client": "Open Source Community",
+      "publishDate": "2024-10-01",
+      "featured": true
+    },
+    {
+      "id": "khoji-search-engine",
+      "title": "Khoji: A Modern Search Engine",
+      "description": "Khoji is a fast, privacy-focused search engine designed to deliver relevant results with a clean, intuitive interface. Built for scalability and speed.",
+      "thumbnail": "../../assets/images/works/khoji-search-engine/khoji-search-engine-cover.webp",
+      "images": [],
+      "pageLink": "pages/works/khoji-search-engine.html",
+      "liveLink": "https://khoji.app",
+      "repoLink": "https://github.com/muntasiractive/khoji",
+      "category": "Web Application",
+      "status": "In Progress",
+      "role": "Full Stack Developer",
+      "testimonials": [],
+      "techStack": [
+        "React",
+        "Node.js",
+        "Elasticsearch",
+        "MongoDB",
+        "Docker",
+        "AWS"
+      ],
+      "client": "Personal Project",
+      "publishDate": "2028-01-01",
+      "featured": true
+    },
+    {
+      "id": "psa-marketing-posters",
+      "title": "PSA: Zila Association Marketing Posters",
+      "description": "A set of vibrant marketing posters designed for the Pabna Student Association (PSA) at Daffodil International University, capturing the spirit of zila association events in 2025.",
+      "thumbnail": "../../assets/images/works/psa-designs/psa-design-cover.webp",
+      "images": [
+        "../../assets/images/works/psa-designs/psa-cards (1).webp",
+        "../../assets/images/works/psa-designs/psa-cards (2).webp",
+        "../../assets/images/works/psa-designs/psa-cards (3).webp",
+        "../../assets/images/works/psa-designs/psa-cards (4).webp",
+        "../../assets/images/works/psa-designs/psa-cards (5).webp",
+        "../../assets/images/works/psa-designs/psa-cards (6).webp",
+        "../../assets/images/works/psa-designs/psa-cards (7).webp",
+        "../../assets/images/works/psa-designs/psa-cards (8).webp"
+      ],
+      "pageLink": "pages/works/psa-marketing-posters.html",
+      "liveLink": "",
+      "repoLink": "",
+      "category": "Branding & Marketing",
+      "status": "Completed",
+      "role": "Brand & Visual Designer",
+      "testimonials": [],
+      "techStack": ["Adobe Photoshop", "Adobe Illustrator", "Canva", "Graphic Design", "Brand Identity"],
+      "client": "PSA (Pabna Student Association)",
+      "publishDate": "2025-01-10",
+      "featured": true
+    },
+    {
+      "id": "interview-diu-faculty",
+      "title": "Interview: Journey to DIU Faculty",
+      "description": "An academic writing and comprehensive project for ENG102, featuring an in-depth interview with a faculty member about their transition from a student to a teacher at Daffodil International University.",
+      "thumbnail": "../../assets/images/works/interview-faculty-diu/cover (1).webp",
+      "images": [
+        "../../assets/images/works/interview-faculty-diu/1.png",
+        "../../assets/images/works/interview-faculty-diu/2.png",
+        "../../assets/images/works/interview-faculty-diu/3.png",
+        "../../assets/images/works/interview-faculty-diu/4.png",
+        "../../assets/images/works/interview-faculty-diu/5.png"
+      ],
+      "pageLink": "pages/works/interview-diu-faculty.html",
+      "liveLink": "",
+      "repoLink": "",
+      "category": "Writing & Communication",
+      "status": "Completed",
+      "role": "Interviewer & Author",
+      "testimonials": [],
+      "techStack": ["Academic Writing", "Interviewing", "Storytelling", "Storyboarding"],
+      "client": "DIU Academic (ENG102)",
+      "publishDate": "2024-12-15",
+      "featured": false
+    },
+    {
+      "id": "application-of-linear-algebra",
+      "title": "Research: Applications of Linear Algebra",
+      "description": "A comprehensive research poster exploring the real-world applications of linear algebra, assigned by faculty Salek Parvez as part of the Mathematics-2 course.",
+      "thumbnail": "../../assets/images/works/application-of-linear-algebra/cover (3).webp",
+      "images": [
+        "../../assets/images/works/application-of-linear-algebra/cover (3).webp"
+      ],
+      "pageLink": "pages/works/application-of-linear-algebra.html",
+      "liveLink": "",
+      "repoLink": "",
+      "category": "Academic Research",
+      "status": "Completed",
+      "role": "Researcher & Designer",
+      "testimonials": [],
+      "techStack": ["Linear Algebra", "Matrix Theory", "Research Methodology", "Data Visualization"],
+      "client": "Salek Parvez (Mathematics-2)",
+      "publishDate": "2024-11-20",
+      "featured": true
+    },
+    {
+      "id": "rl-rc-rlc-circuits",
+      "title": "Presentation: RL, RC & RLC Circuits",
+      "description": "An academic presentation exploring the behavior and analysis of RL, RC, and RLC circuits, prepared for the Electric Device course under the guidance of Anup Kumar Modak.",
+      "thumbnail": "../../assets/images/works/rl-rc-rlc-circuits/2.webp",
+      "images": [
+        "../../assets/images/works/rl-rc-rlc-circuits/1.webp",
+        "../../assets/images/works/rl-rc-rlc-circuits/2.webp",
+        "../../assets/images/works/rl-rc-rlc-circuits/3.webp",
+        "../../assets/images/works/rl-rc-rlc-circuits/4.webp",
+        "../../assets/images/works/rl-rc-rlc-circuits/6.webp",
+        "../../assets/images/works/rl-rc-rlc-circuits/8.webp",
+        "../../assets/images/works/rl-rc-rlc-circuits/10.webp"
+      ],
+      "pageLink": "pages/works/rl-rc-rlc-circuits.html",
+      "liveLink": "",
+      "repoLink": "",
+      "category": "Academic Presentation",
+      "status": "Completed",
+      "role": "Presenter & Designer",
+      "testimonials": [],
+      "techStack": ["Circuit Theory", "Electrical Engineering", "PowerPoint", "Technical Presentation"],
+      "client": "Anup Kumar Modak (DIU)",
+      "publishDate": "2024-11-10",
+      "featured": false
+    },
+    {
+      "id": "mathematical-model-of-traffic-flow",
+      "title": "Model: Mathematical Traffic Flow",
+      "description": "A research-based presentation on the mathematical modeling of traffic flow, assigned by Bimal Chandro Das for the Engineering Mathematics course.",
+      "thumbnail": "../../assets/images/works/mathematical-model-of-traffic-flow/1.webp",
+      "images": [
+        "../../assets/images/works/mathematical-model-of-traffic-flow/1.webp",
+        "../../assets/images/works/mathematical-model-of-traffic-flow/2.webp",
+        "../../assets/images/works/mathematical-model-of-traffic-flow/3.webp",
+        "../../assets/images/works/mathematical-model-of-traffic-flow/4.webp",
+        "../../assets/images/works/mathematical-model-of-traffic-flow/6.webp"
+      ],
+      "pageLink": "pages/works/mathematical-model-of-traffic-flow.html",
+      "liveLink": "",
+      "repoLink": "",
+      "category": "Academic Presentation",
+      "status": "Completed",
+      "role": "Researcher",
+      "testimonials": [],
+      "techStack": ["Engineering Mathematics", "Fluid Dynamics Analogy", "Data Analysis", "LaTeX"],
+      "client": "Bimal Chandro Das (DIU)",
+      "publishDate": "2024-10-15",
+      "featured": false
+    },
+    {
+      "id": "shawshank-redemption",
+      "title": "Analysis: Shawshank Redemption Deck",
+      "description": "A cinematic and thematic analysis deck of 'The Shawshank Redemption', assigned by Salma Saba as part of a creative communications course.",
+      "thumbnail": "../../assets/images/works/shawshank-redemption/cover (2).webp",
+      "images": [
+        "../../assets/images/works/shawshank-redemption/1.webp",
+        "../../assets/images/works/shawshank-redemption/2.webp",
+        "../../assets/images/works/shawshank-redemption/3.webp",
+        "../../assets/images/works/shawshank-redemption/4.webp",
+        "../../assets/images/works/shawshank-redemption/6.webp"
+      ],
+      "pageLink": "pages/works/shawshank-redemption.html",
+      "liveLink": "",
+      "repoLink": "",
+      "category": "Academic Presentation",
+      "status": "Completed",
+      "role": "Analyst & Designer",
+      "testimonials": [],
+      "techStack": ["Film Criticism", "Storytelling", "Visual Design", "Creative Writing"],
+      "client": "Salma Saba (DIU)",
+      "publishDate": "2024-09-20",
+      "featured": false
+    }
+  ]
+}

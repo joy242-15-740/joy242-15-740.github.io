@@ -1,0 +1,20 @@
+{
+  "schema": {
+    "id": "string",
+    "title": "string",
+    "description": "string",
+    "thumbnail": "string",
+    "videoUrl": "string",
+    "pageLink": "string",
+    "duration": "string",
+    "publishDate": "string",
+    "views": "number",
+    "category": "string",
+    "featured": "boolean",
+    "transcript": "string",
+    "resources": "array of strings"
+  },
+  "data": [
+    
+  ]
+}

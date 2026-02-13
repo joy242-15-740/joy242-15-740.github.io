@@ -1,0 +1,29 @@
+{
+  "schema": {
+    "id": "string",
+    "role": "string",
+    "company": "string",
+    "location": "string",
+    "type": "string",
+    "startDate": "string",
+    "endDate": "string",
+    "current": "boolean",
+    "description": "string",
+    "techStack": "array of strings"
+  },
+  "data": [
+    {
+      "id": "exp-001",
+      "role": "Founder and Chairperson",
+      "company": "Noor",
+      "location": "Savar, Dhaka, Bangladesh",
+      "type": "Entrepreneurship",
+      "startDate": "2025",
+      "endDate": "Present",
+      "current": true,
+      "description": "Founded Noor to provide world-new innovation and perspective in Technology and Experience. Working on NoorOS, Cue (AI), Mukti (Language), and ROAM (App).",
+      "techStack": ["Technology", "Innovation", "AI", "OS Development"],
+      "url": "https://noorglobal.page"
+    }
+  ]
+}
